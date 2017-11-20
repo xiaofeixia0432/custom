@@ -1,0 +1,100 @@
+#bg
+{
+  background-image:url('kaka.jpg');
+  width:100%;
+  background-size:cover;
+	
+}
+
+
+* {
+  margin:0;
+  padding:0;
+}
+.navfirst
+{
+	 left:200px;
+	 font-size:12px;
+	 position:relative;
+}
+
+.navfirst li
+{
+  float:left;
+  list-style:none;
+  position:relative;
+
+}
+
+.navfirst a {
+  display:block;
+  height:32px;
+  width:200px;
+  line-height:32px;
+  background:#a9ea00;
+  color:#ff8040;
+  text-decoration:none;
+  text-align:center;
+  overflow:hidden;
+}
+
+
+
+.navfirst a:hover {
+      background:#369;
+      color:#fff;
+    }
+    
+.navfirst ul ul {
+	  visibility:hidden;
+    position:absolute;
+    left:0px;
+    top:32px;
+}
+.navfirst ul ul li {
+	clear:both;
+	text-align:left;
+}
+
+.navfirst ul li:hover ul.navsecond,
+.navfirst ul a:hover ul.navsecond {
+	visibility:visible;
+}
+
+.navfirst .navthird {
+	top:0px;
+	left:200px;
+}
+
+.navfirst ul ul li:hover ul.navthird,
+.navfirst ul ul a:hover ul.navthird {
+	visibility:visible;
+}
+/*
+.navfirst ul ul a:hover{
+      background:black;
+      color:white;
+    }
+    */
+    
+.navsecond a:hover {
+  background:#FFE8AA;
+  color:#68DFFB;
+}
+
+.navthird a:hover
+{
+	background:#dd44ff;
+	color:black;
+}
+
+.navfirst table {
+	
+  border-collapse:collapse;
+}
+
+
+
+
+
+
